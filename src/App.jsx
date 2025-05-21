@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MySlider from "./component/MySlider";
+import MyPanel from "./component/MyPanel";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,12 +20,15 @@ function App() {
         </div>
       <h1>Vite + React 程式設計</h1>
       <h2>5B1G0038 張皓</h2>
-      <h2>Slider</h2>
+      <h2>第一個元件：Slider</h2>
       <div>
         <p>R:<MySlider /></p>
         <p>G:<MySlider /></p>
         <p>B:<MySlider /></p>
       </div>
+      <br/>
+      <h2>第二個元件：RGB色彩面板</h2>
+      <MyPanel />
       <div className="card">
       <h2>Count</h2>
         <button onClick={() => setCount((count) => count + 1)}>
@@ -33,7 +37,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-        <a href="https://hawhawian.github.io/IanJavaScriptWeb/" class="link-button">離開</a>
+        <a href="https://hawhawian.github.io/IanJavaScriptWeb/" class="link-button">❌離開</a>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
