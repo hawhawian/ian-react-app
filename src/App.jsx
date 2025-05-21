@@ -9,9 +9,6 @@ function App() {
 
   return (
     <>
-      <a href="https://hawhawian.github.io/IanJavaScriptWeb/" target="_blank">
-      <img src="../public/home.png" className="logo homepage" alt="Ian Homepage" />
-        </a>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -36,6 +33,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+        <a href="https://hawhawian.github.io/IanJavaScriptWeb/" class="link-button">離開</a>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
