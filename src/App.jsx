@@ -5,6 +5,7 @@ import './App.css'
 import MySlider from "./component/MySlider";
 import MyPanel from "./component/MyPanel";
 import MyCalculator from "./component/MyCalculator";
+import MyTicTacToe from "./component/MyTicTacToe";
 
 
 
@@ -34,6 +35,8 @@ function App() {
       <MyPanel />
       <h2>第三個元件：小算盤計算機</h2>
       <MyCalculator />
+      <h2>第四個元件：井字遊戲</h2>
+      <MyTicTacToe />
 
       <div className="card">
       <h2>Count</h2>
